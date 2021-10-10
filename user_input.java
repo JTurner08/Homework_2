@@ -1,4 +1,5 @@
 package user_input;
+
 import java.util.Scanner;
 
 public class UserInput {
@@ -40,11 +41,11 @@ public class UserInput {
 
 		String str= scan.next();
 		
-		//reverse string entered into a new string
+		
 		String strReversed=new StringBuilder(str).reverse().toString();
 	
 
-        //checking
+        // test if works
         if(str.equals(strReversed)) {
             System.out.println("The word you entered is a palindrome");
         }
